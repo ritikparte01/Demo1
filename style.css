@@ -1,0 +1,145 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+    }
+    .section1{
+        position: fixed;
+        min-height: 95vh;
+        width: 100%;
+        background: url(banner.png);
+    }
+
+    .logo{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    }
+
+    header ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 30%;
+        margin-top: 40px;
+    }
+
+    header ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header ul li a{
+        text-decoration: none;
+        font-size: 22px;
+        color: white;
+    }
+
+    .Text1{
+        margin-top: 120px;
+        margin-left: 40px;
+    }
+    .Text1 h3{
+        color: #575757;
+        font-size: 25px;
+        font-weight: 100;
+    }
+    .m2{
+        position: absolute;
+        top: 60%;
+    }
+
+    .txtBox{
+        position: absolute;
+        left: 15%;
+        top: 28%;
+        max-width: 600px;
+        /* line-height: 60px; */
+    }
+
+    .txtBox h2{
+        color: rgb(255, 41, 87);
+        font-size: 35px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+    }
+    .txtBox h1{
+        color: white;
+        font-size: 50px;
+        padding-bottom: 15px;
+    }
+
+    .txtBox p{
+        color: white;
+        line-height: 24px;
+        padding-bottom: 15px;
+    }
+
+    .txtBox .b1{
+        background-color: rgb(255, 41, 87);
+        color: white;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: absolute;
+        margin-top: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    .txtBox .b1:hover{
+        background-color: white;
+        color: rgb(255, 41, 87);
+        transform: translateY(-30%);
+        transition: 0.8s;
+    }
+
+
+    .txtBox .b2{
+        background-color: white;
+        color: rgb(255, 41, 87);
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        left: 170px;
+        position: absolute;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    .txtBox .b2:hover{
+        background-color: rgb(255, 41, 87);
+        color: white;
+        transform: translateY(-30%);
+        transition: 0.8s;
+    }
+
+    .circle1{
+        height: 40px;
+        width: 60px;
+        color: white;
+        border-radius: 45px;
+        border: 1px solid white;
+        position: absolute;
+        top: 38%;
+        left: 65px;
+    }
+
+    .circle1 p{
+        padding:10px;
+        padding-left: 18px;
+    }
+    .imgBox{
+        position: absolute;
+        top: 10%;
+        right: 50px;
+    }
+    .imgBox img:hover{
+        transform: translateY(-3%);
+        transition: 0.8s;
+    }
